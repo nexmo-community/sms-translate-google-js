@@ -6,7 +6,7 @@ This example uses Google Cloud Translation API to translate SMS messages to the 
 
 SMS Messages sent through Nexmo will be sent to Google Cloud Translation API and the translation returned to the console.
 
-## Google Natural Language API
+## Google Cloud Translation API
 
 + Reference: [https://cloud.google.com/translate/docs/quickstarts](https://cloud.google.com/translate/docs/quickstarts)
 + API Docs: [https://cloud.google.com/translate/docs/reference/rest/](https://cloud.google.com/translate/docs/reference/rest/)
@@ -80,4 +80,4 @@ nexmo link:sms phone_number https://my-hostname/message
 With the example Node application running in the terminal, send various SMS messages to the virtual number.  The terminal will output the response from Google Natural Language API.
 
 ## Extend
-This app prints out to the console. For integration with an application, extend the `analyzeTone` function to suit your needs.
+This app prints out to the console. For integration with an application, extend the `translateText` function to suit your needs.
